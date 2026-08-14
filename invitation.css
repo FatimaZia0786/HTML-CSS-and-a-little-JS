@@ -43,8 +43,7 @@ body:has(:target) #card1 {
   border-radius: 90px;
   font-size: 19px;
   color: rgb(124, 7, 7);
-  border: wavy;
-  position: absolute;
+  position: relative;
   box-sizing: 12px;
 }
 .btn-input{
