@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Birthday invitation</title>
+    <link rel="stylesheet" href="Invitation.css" />
+  </head>
+  <body>
+    <div>
+<!--card1-->
+<div class="box" id="card1">
+  <img class="pic" src="https://imgcdn.stablediffusionweb.com/2024/6/7/8ad5f1b1-1d32-4a2f-b789-3ab17bef4963.jpg" width="100" height="100" alt="cat">
+  <h2 class="Question">🌺Will you come on a date with me?🥰</h2>
+  
+  <div class="button-container">
+    <a href="#card2"><button class="btn" id="btn-Y">Yes</button></a>
+    <button class="btn" id="btn-N">No</button>
+  </div>
+</div>
+    <!--card2-->
+    <div id = "card2" class = "box">
+      <img class = "pic" src= "https://i1.sndcdn.com/artworks-000234821424-r2z0zt-t500x500.jpg" width = 100 height = 100 alt = "cat"><br/>
+      <h2 class = "Question">Wait,, You Actually said 
+      <span class = "letter-box">Y</span> 
+      <span class = "letter-box">E</span> 
+      <span class = "letter-box">S</span>...!<br/></h2>
+      <p>I was so ready for you to say no😆😅</p>
+      <a href = "#card3"><div class = "button-container"><button class = "btn" id = "okay">Okay Okay➡️</button></a></div>
+    </div>
+   <!-- Card 3 -->
+<div id="card3" class="box">
+  <img src="https://i.etsystatic.com/9568809/r/il/8e7f16/6685240828/il_800x800.6685240828_4ao1.jpg" class="pic" width="100" height="100" alt="cat">
+  
+  <form action="#card4">
+    <h2 class="Question">So,,, When Are you free?</h2>
+    
+    <div class="adjust">
+      <label for="date">Pick a date 🗓️</label><br/>
+      <input type="date" id="date" class="btn-input" name="date" required><br/>
+      <label for="time">Select Time</label><br/>
+      <input type="time" id="time" name="time" class="btn-input" required>
+    </div>
+    <button type="submit" class="btn" id="next">Next...!</button>
+  </form>
+</div>
+
+<!-- Card 4 -->
+<div id="card4" class="box">
+  <h2 class="Question">What do you want?</h2>
+  <p style="text-align: center">Pick your vibe!</p>
+
+  <a href="#card5"><img src="https://www.secretharbourpizza.com.au/wp-content/uploads/2023/07/Peri-peri-Chicken-pizza.jpg" height="120" width="120" class="pic"></a>
+  <a href="#card5"><img src="https://www.recipetineats.com/wp-content/uploads/2023/10/Penne-Arrabbiata-4.jpg?resize=85" height="120" width="120" class="pic"></a>
+  <a href="#card5"><img src="https://tse2.mm.bing.net/th/id/OIP.i4OcF5J5fjCTypTSo603nwHaEJ?r=0&pid=Api&h=220&P=0" height="120" width="120" class="pic"></a>
+  <a href="#card5"><img src="https://tse1.mm.bing.net/th/id/OIP.SQfTh0IQ5O6YvVnke72p-wHaHa?r=0&pid=Api&h=220&P=0" height="120" width="120" class="pic"></a>
+  <a href="#card5"><img src="https://tse1.mm.bing.net/th/id/OIP.OeD8JVTxqcS5PAdzRhUhxwHaD4?r=0&pid=Api&h=220&P=0" height="120" width="120" class="pic"></a>
+  <a href="#card5"><img src="https://cdn.pixabay.com/photo/2022/08/31/10/17/burger-7422970_1280.jpg" height="120" width="120" class="pic"></a>
+</div>
+<!--card5-->     
+  <div id = "card5">
+    <h2 class = "Question">In desserts</h2>
+      <p style = "text-align: center">What do you like?</p>
+   <a href = "#card6"><img src = "https://tse4.mm.bing.net/th/id/OIP.Zem0xPXj-2mT1o-3Z6haYQHaHa?r=0&pid=Api&h=220&P=0" height = 120 width = 120 class = "pic"></a>
+   <a href = "#card6"><img src = "https://tse2.mm.bing.net/th/id/OIP.AKuMAghc8mXWpw8TeXz23QHaHa?r=0&pid=Api&h=220&P=0" height = 120 width = 120 class = "pic"></a>
+   <a href = "#card6"><img src = "https://tasteoffrancemag.com/wp-content/uploads/2023/01/shutterstock_2122346009-scaled.jpg" height = 120 width = 120 class = "pic"></a>
+   <a href = "#card6"><img src = "https://img.freepik.com/premium-photo/warm-chocolate-brownie-with-vanilla-ice-cream-chocolate_579873-13715.jpg" height = 120 width = 120 class = "pic"></a>
+   <a href = "#card6"><img src = "https://tse4.mm.bing.net/th/id/OIP.uDb6M-Ngg-8XA1y5bJmmCQHaFj?r=0&pid=Api&h=220&P=0" height = 120 width = 120 class = "pic"></a>
+   <a href = "#card6"><img src = "https://tse4.mm.bing.net/th/id/OIP.hzEKkShrd1lQE4rcOPIkJQHaLH?r=0&pid=Api&h=220&P=0" height = 120 width = 120 class = "pic"></a>    
+  </div>
+  <div id = "card6" class="box">
+    <h2 class = "Question">Glad you didn't say NO..!😌🥰<br/>I can't believe this</h2>
+    <p style = "text-align: center"> Be ready at time...💕</p>
+  </div>
+     <!-- Place this just above </body> -->
+    <script src="invitation.js"></script>
+  </body>
+</html>
